@@ -75,5 +75,5 @@ Finally, the **lifecoach.sqlite** database has been modified to fit the requests
 
 The server WAR file was deployed to Heroku including the database in this way
 ```sh
-heroku war:deploy IntroSdeAss2.war --includes lifecoach.sqlite --app <nameApp>
+heroku war:deploy <file-name>.war --includes lifecoach.sqlite --app <your-app-name>
 ```
